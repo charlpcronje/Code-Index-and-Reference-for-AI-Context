@@ -1,0 +1,7 @@
+{
+    "root_path": "path/to/your/java/project",
+    "include_folders": ["src", "lib"],
+    "exclude_folders": ["tests", "docs"],
+    "max_lines_per_file": 5000,
+    "output_directory": "path/to/output/directory"
+}
