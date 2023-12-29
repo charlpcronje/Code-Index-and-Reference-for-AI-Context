@@ -1,4 +1,4 @@
-# Code Context Parser and Indexer for AI
+# Code Index and Reference for AI Context
 
 ## Overview
 
