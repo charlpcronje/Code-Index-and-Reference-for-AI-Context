@@ -2,17 +2,17 @@
 
 ## Overview
 
-The Code Context Parser and Indexer for AI is an advanced tool designed to analyze and index code from multiple programming languages including Java, JavaScript (JS), HTML, PHP, Python, Rust, and C++. Its primary goal is to facilitate AI-driven code assistance by creating detailed indexes that provide deep insights into the codebase. These indexes enable AI systems to offer more context-aware suggestions and support to developers.
+The Code Context Parser and Indexer for AI is an advanced tool designed to analyze and index code from multiple programming languages including `Java`, `JavaScript (JS)`, `HTML`, `PHP`, `Python`, `Rust`, and `C++`. Its primary goal is to facilitate AI-driven code assistance by creating detailed indexes that provide deep insights into the codebase. These indexes enable AI systems to offer more context-aware suggestions and support to developers.
 
 ## Key Features
 
 1. **Scans Your Java Project**: It traverses through the specified root directory of your Java project.
-2. **Configurable Inclusion/Exclusion**: You can set which folders to include or exclude in the scanning process through an environment file (.env).
-3. **Combines Java Files**: It combines all .java files it finds into one or multiple files. This depends on the size limitation set in the .env file.
+2. **Configurable Inclusion/Exclusion**: You can set which folders to include or exclude in the scanning process through an environment file (`.env`).
+3. **Combines Java Files**: It combines all `.java` files it finds into one or multiple files. This depends on the size limitation set in the `.env` file.
 4. **Annotates File Paths**: Before each file's content in the combined file(s), it inserts a comment indicating the original file path and name.
 5. **Generates an Index**: It creates an index detailing where each file and method can be found within the combined file(s), including the specific line numbers.
 6. **Handles Large Projects**: If a combined file exceeds a set size limit, the app breaks the content into multiple parts, managing large projects efficiently.
-7. **Multilingual Support**: Capable of processing Java, JS, HTML, PHP, Python, Rust, and C++.
+7. **Multilingual Support**: Capable of processing `Java`, `JS`,`HTML`, `PHP`, `Python`, `Rust`, and `C++`.
 8. **Deep Code Analysis**: Parses code to extract classes, methods, properties, and other essential elements.
 9. **Dual Index Generation**: Generates both human-readable and AI-optimized indexes for each supported language.
 10. **Numeric Referencing System**: Applies a unique numeric referencing system for frequent terms to enhance AI optimization.
